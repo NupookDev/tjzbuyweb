@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TJZ the Editor website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="TJZkillerMC Head.ico" type="image/x-icon">
+</head>
+<body class="bg">
+    <h1 id="title">TJZ the Editor</h1><div class="subbtnflex"><button id="subbtn">Subscribe my channel!</button></div><br>
+    <div class="subbtnflex"><button id="joinbtn">Join my editor discord server</button></div><br><br>
+    <div id="buycontainer">
+        <div id="freethumb">
+            <div class="descontainer">
+                <article>
+                    <h1>Free Thumbnails</h1>
+                    <p>
+                        -Its free<br><br>
+                        -I make thumbnails<br><br>
+                        -The result will be good cause I'm a Youtuber<br><br>
+                        <a href="https://www.youtube.com/channel/UC8wy1jGgiH-CYntlsRsq4ZA" target="blank">-Subscribe now!</a>
+                    </p>
+                </article>
+            </div>
+        </div>
+        <div id="normaledit">
+            <div class="descontainer">
+                <article>
+                    <h1>Normal Edit</h1>
+                    <p>
+                        -Costs 50 bath / 1.65$<br><br>
+                        -I edit your video normally (basic)<br><br>
+                        -Good result, I guess...<br><br>
+                        <a href="https://www.youtube.com/watch?v=ynypzBJOiIs" target="blank">-Example</a>
+                    </p>
+                </article>
+            </div>
+        </div>
+        <div id="montageedit">
+            <div class="descontainer">
+                <article>
+                    <h1>Montage Editing</h1>
+                    <p>
+                        -Costs 45 bath / 1.49$<br><br>
+                        -I still edit your video normally but better cause its a montage<br><br>
+                        -Montage video result<br><br>
+                        -Sorry no example :(
+                    </p>
+                </article>
+            </div>
+        </div>
+        <div id="epicediting">
+            <div class="descontainer">
+                <article>
+                    <h1>Epic Editing</h1>
+                    <p>
+                        -Costs 60 bath/1.98$<br><br>
+                        -I edit the epic way<br><br>
+                        -The result will be EPIC cause its costs more than others<br><br>
+                        <a href="https://www.youtube.com/watch?v=lyj3AMrqOds" target="blank">-Example</a>
+                    </p>
+                </article>
+            </div>
+        </div>
+        <div id="asmrediting">
+            <div class="descontainer">
+                <article>
+                    <h1>ASMR Editing</h1>
+                    <p>
+                        -Costs 50 bath/1.65$<br><br>
+                        -I edit your video normally<br><br>
+                        -ASMR video...<br><br>
+                        <a href="https://www.youtube.com/watch?v=PDoMgs0Z5SY&t=4s" target="blank">-Example</a>
+                    </p>
+                </article>
+            </div>
+        </div>
+        <div id="shortediting">
+            <div class="descontainer">
+                <article>
+                    <h1>Short Editing</h1>
+                    <p>
+                        -Costs 40 bath/1.49$<br><br>
+                        -I edit your video normally again<br><br>
+                        -The video is going to be short<br><br>
+                        <a href="https://www.youtube.com/watch?v=klmoIMnKbbQ&t" target="blank">-Example</a>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="endpage">
+        <h1 style="font-family: 'Comic Sans MS';">Website by Nupook<br></h1>
+        <!--<a href="https://discord.gg/tDUKXQJc6D">Join my Discord server</a>-->
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#title').hide().fadeIn(1500);
+            $('#buycontainer').hide().slideDown(1500);
+            $('#buycontainer2').hide().slideDown(1500);
+            $('#subbtn').hide().fadeIn(1500);
+            $('#joinbtn').hide().fadeIn(1500);
+            $('.endpage').hide().fadeIn(1500);
+            $('#subbtn').click(function() {
+                window.open('https://www.youtube.com/channel/UC8wy1jGgiH-CYntlsRsq4ZA', '_blank');
+            });
+            $('#joinbtn').click(function() {
+                window.open('https://discord.gg/tDUKXQJc6D', '_blank');
+            });
+            $('#title').click(function() {
+                window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_self')
+            })
+        });
+    </script>
+</body>
+</html>

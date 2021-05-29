@@ -1,0 +1,143 @@
+body, html {
+    margin: 0px;
+}
+
+.bg {
+    background-image: url('./BackgroundImg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2px;
+    opacity: 0.8;
+}
+
+#title {
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    font-size: 3.57rem;
+    color: chartreuse;
+    -webkit-text-stroke: 2px black;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+#freethumb {
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-family: 'Comic Sans MS';
+}
+
+.descontainer {
+    font-weight: bold;
+    padding: 10px;
+}
+
+#buycontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#buycontainer div {
+    width: 500px;
+    height: 350px;
+    margin: 15px;
+    display: flex;
+}
+
+#normaledit {
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-family: 'Comic Sans MS';
+}
+
+#montageedit {
+    background-image: linear-gradient(360deg,orange, yellow);
+    border-radius: 10px;
+    border: 3px solid white;
+    font-family: 'Comic Sans MS';
+}
+
+#epicediting {
+    background-image: linear-gradient(360deg, red,orange,yellow,green,blue,indigo,violet);
+    border-radius: 10px;
+    border: 3px solid white;
+    font-family: 'Comic Sans MS';
+    color: white;
+    -webkit-text-stroke: 1.2px black;
+}
+
+#asmrediting {
+    background-image: linear-gradient(magenta, purple);
+    border-radius: 10px;
+    border: 3px solid white;
+    font-family: 'Comic Sans MS';
+}
+
+#shortediting {
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-family: 'Comic Sans MS';
+}
+
+.endpage {
+    background-color: black;
+    height: 160px;
+    font-size: 0.7rem;
+    color: white;
+    font-family: 'Trebuchet MS';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.endpage h1 {
+    padding: 12px;
+    text-align: center;
+}
+
+#subbtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid black;
+    font-family: 'Comic Sans MS';
+    font-size: 1rem;
+    font-weight: bold;
+    background-image: linear-gradient(lime,green);
+    transition: transform 1s, box-shadow 1s;
+    cursor: pointer;
+}
+
+#joinbtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid black;
+    font-family: 'Comic Sans MS';
+    font-size: 1rem;
+    font-weight: bold;
+    background-image: linear-gradient(lime,green);
+    transition: transform 1s, box-shadow 1s;
+    cursor: pointer;
+}
+
+.subbtnflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    #buycontainer div {
+        width: 100%;
+    }
+}
