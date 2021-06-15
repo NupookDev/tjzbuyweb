@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const config = require('./config.json')
 
-const port = process.env.PORT || 80
+const port = process.env.PORT || config.port || 80;
 
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
